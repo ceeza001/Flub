@@ -313,7 +313,7 @@ const items = [
     header: <SkeletonSix />,
     title: "DeFi Bob",
     content: "Web 3 | DeFi | Writer.",
-    link: "https://x.com/nftbob_?t=H2sQGwazY97_e_0aD6cMyg&s=09"
+    link: "https://x.com/defibob_?t=l96ZWWC36ClG0Ukj2rwVoQ&s=09"
   },
   {
     header: <SkeletonSeven />,
