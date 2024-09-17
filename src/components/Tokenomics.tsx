@@ -319,7 +319,7 @@ const items = [
     header: <SkeletonSeven />,
     title: "Ceeza",
     content: "Web3 dev crafting cool stuff on the blockchain Poet coding ninja | Making digital magic happen! #Web3Dev #poet",
-    link: "https://x.com/Ceeza__007?t=H2sQGwazY97_e_0aD6cMyg&s=09"
+    link: "https://x.com/ceeza_007"
   },
 ];
 
