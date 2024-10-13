@@ -18,7 +18,7 @@ const Anticipate = () => {
 
       <div className="my-8 mx-auto max-w-[35rem] flex flex-wrap gap-2">
         {navbarLinks.map((item, i) => (
-          <Link key={i} className="flex gap-2 p-2 justify-center items-center min-w-fit max-w-fit text-center rounded-full border border-[#AD9DDB]">
+          <Link key={i} to={item.route} className="flex gap-2 p-2 justify-center items-center min-w-fit max-w-fit text-center rounded-full border border-[#AD9DDB]">
             <p className="text-[#AD9DDB] text-center font-inter">{item.label}</p>
             
             <img 

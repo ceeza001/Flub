@@ -16,22 +16,19 @@ export const roadmaps = [
 
 export const navbarLinks = [
   {
-    route: "/communities",
+    route: "#",
     label: "How to buy",
   },
   {
-    imgURL: "/assets/icons/shop.svg",
-    route: "/marketplace",
+    route: "#",
     label: "Dexscreener",
   },
   {
-    imgURL: "/assets/icons/planet.svg",
-    route: "/oasis",
+    route: "#",
     label: "PumpFun",
   },
   {
-    imgURL: "/assets/icons/ai.svg",
-    route: "/kubi",
+    route: "#",
     label: "Supply",
   },
 ];
