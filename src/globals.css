@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playwrite+AU+VIC:wght@100..400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,23 +11,18 @@
   }
 
   body {
-    @apply max-h-screen w-screen overflow-x-hidden bg-dark-1 text-[#BBC1CD] font-semibold font-inter;
+    @apply max-h-screen w-screen overflow-x-hidden text-[#BBC1CD] font-semibold rubik-marker;
+    background: url("/assets/images/bg.jpg") center / cover no-repeat;
   }
 }
 
 @layer utilities {
   /* TYPOGRAPHY */
-  .playwrite {
-    font-family: "Playwrite AU VIC", cursive;
-    font-optical-sizing: auto;
+  .rubik-marker {
+    font-family: "Rubik Marker Hatch", serif;
     font-style: normal;
   }
-
-  .noto-sans-jp {
-    font-family: "Noto Sans JP", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+  
 
   .abril-fatface {
     font-family: "Abril Fatface", serif;

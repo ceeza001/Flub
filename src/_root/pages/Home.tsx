@@ -16,7 +16,7 @@ const Home = () => {
         <Roadmap />
       </div>
 
-      <div className="my-[4rem] text-white max-w-[70rem] mx-auto">
+      <div className="my-[4rem] max-w-[70rem] mx-auto">
         <Tokenomics />
       </div>
     </div>
