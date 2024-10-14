@@ -11,7 +11,7 @@ const Hero = () => {
           className="mb-4 text-primary text-[5rem]" 
         />
         
-        <h1 className="text-white text-[20px]">
+        <h1 className=" text-white text-[20px] break-all">
           CA: 68ZkdU3CvcACZsedZ23sAUdLQ9Yzib2zF4X3Yu5cpump
         </h1>
       </div>
